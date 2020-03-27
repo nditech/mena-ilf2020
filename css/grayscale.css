@@ -142,6 +142,7 @@
   .masthead h1 {
     font-size: 4rem;
     line-height: 4rem;
+    text-align: center;
   }
 }
 
@@ -154,10 +155,12 @@
     font-size: 6.5rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
+    text-align: center;
   }
   .masthead h2 {
     max-width: 30rem;
     font-size: 1.25rem;
+    text-align: inherit;
   }
 }
 
