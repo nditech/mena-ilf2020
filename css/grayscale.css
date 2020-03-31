@@ -330,3 +330,10 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+.active-page {
+    background-image: linear-gradient(black, grey);  
+    color: #d3d3d3 !important;
+    border-radius: 0 0 4px 4px;
+}
+
