@@ -236,7 +236,7 @@
 
 .about-section {
   padding-top: 10rem;
-  background: white;
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -271,6 +271,10 @@
     border-width: .25rem;
     width: 30%;
   }
+}
+
+#about-page {
+    text-align: left !important;
 }
 
 .signup-section {
@@ -372,5 +376,12 @@ footer {
     background-image: linear-gradient(black, grey);  
     color: #d3d3d3 !important;
     border-radius: 0 0 4px 4px;
+}
+
+
+
+#agenda {
+    width: 60%;
+    margin: 30px auto;
 }
 
