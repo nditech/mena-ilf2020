@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #e7732a; 
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -98,7 +98,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Cooper Hewitt';
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -113,7 +113,7 @@
 }
 
 .parallax1 {
-  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%),url("../img/ILF.jpg");
+  background-image: url("../img/ILF.jpg");
   height: 800px;
   background-attachment: fixed;
   background-position: center;
@@ -247,7 +247,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #e7732a;
   }
 }
 
@@ -302,7 +302,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Minion Pro';
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
