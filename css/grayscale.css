@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #e7732a; 
+  color: #007B2F; 
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -64,15 +64,15 @@
     background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #007B2F;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #e7732a;
+    color: #007B2F;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #e7732a;
+    color: #808080;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #e7732a;
@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/ILF.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 50%, #161616 100%), url("../img/ILF.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -103,7 +103,7 @@
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 }
 
@@ -336,7 +336,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Minion Pro';
   letter-spacing: 0.0625em;
 }
 
@@ -372,8 +372,6 @@ footer {
 }
 
 .active-page {
-    background-image: linear-gradient(black, grey);  
-    color: #d3d3d3 !important;
     border-radius: 0 0 4px 4px;
 }
 
