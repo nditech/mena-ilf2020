@@ -184,6 +184,11 @@
   border-left: 10px solid #f90;
     display: block;
     width: 0;}
+
+  #sponsor {
+      padding: 5%;
+   }
+   
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
@@ -399,6 +404,3 @@ footer {
     margin: 30px auto;
 }
 
-.projects {
-   padding: 5% 0 5% 0;
-}
