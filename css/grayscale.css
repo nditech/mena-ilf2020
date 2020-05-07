@@ -101,9 +101,8 @@
 .masthead2 {
   position: relative;
   width: 100%;
-  height: ;
-  margin-bottom: 10%;
-  min-height: 35rem;
+  height: 60%;
+  margin-bottom: 5%;
   padding: 15rem 0;
   background: linear-gradient(to bottom, rgba(255, 254, 254, 0.144) 0%, rgba(240, 133, 45, 0.623) 25%),url("../img/ILFhero2.jpg");
   background-position: center;
@@ -375,6 +374,7 @@ a:focus, a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 60px;
   
 }
 
@@ -399,8 +399,4 @@ footer {
 
 
 
-#agenda {
-    width: 60%;
-    margin: 30px auto;
-}
 
