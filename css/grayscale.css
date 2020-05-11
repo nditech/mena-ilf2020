@@ -4,6 +4,35 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+@media (max-width: 1024px) {
+    
+.pill-table-wrap {
+    width: 800px !important;
+        }    
+}
+
+@media (max-width: 768px) {
+    
+.pill-table-wrap {
+    width: 600px !important;
+        }    
+}
+
+@media (max-width: 425px) {
+    
+.pill-table-wrap {
+    width: 375px !important;
+        }    
+}
+
+@media (max-width: 320px) {
+    
+.pill-table-wrap {
+    width: 300px !important;
+        }    
+}
+
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -113,7 +142,7 @@
 
 .masthead h1 {
   font-family: 'Cooper Hewitt';
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
@@ -210,7 +239,7 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
+    font-size: 6rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
     text-align: center;
@@ -226,6 +255,14 @@
   .parallax {
     background-attachment: scroll;
   }
+}
+
+.contrib-nav {
+    margin-bottom: 30px;
+}
+
+.agenda-box {
+    height: 250px;
 }
 
 .btn {
@@ -404,6 +441,8 @@ footer {
 .active-page {
     border-radius: 0 0 4px 4px;
 }
+    
+
 
 
 
