@@ -53,9 +53,9 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead2">
-    <div class="container d-flex h-100 align-items-center">
-      <div class="mx-auto text-center">
+  <header class="child-header">
+    <div>
+      <div class="text-center">
         <h1 class="text-white mx-auto my-0 text-uppercase">Agenda</h1>
       </div>
     </div>
@@ -66,17 +66,63 @@
     
     <section class="container agenda-box">    
         <div class="row">    
-            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical" style="margin-right: 20px;">
+            <div class="nav flex-column nav-pills agenda-nav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                 <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-day-one" role="tab" aria-controls="v-pills-home" aria-selected="true">Day One</a>
                 <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-day-two" role="tab" aria-controls="v-pills-profile" aria-selected="false">Day Two</a>
                 <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-day-three" role="tab" aria-controls="v-pills-messages" aria-selected="false">Day Three</a>
                 <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-day-four" role="tab" aria-controls="v-pills-settings" aria-selected="false">Day Four</a>
             </div>
             <div class="tab-content" id="v-pills-tabContent">
-                <div class="tab-pane fade show active" id="v-pills-day-one" role="tabpanel" aria-labelledby="v-pills-home-tab"><strong><u>Monday July, 13 2020</u></strong><br> 6:00 pm - 8:00 pm <strong>Opening Reception</strong></div>
-                <div class="tab-pane fade" id="v-pills-day-two" role="tabpanel" aria-labelledby="v-pills-profile-tab"><strong><u>Tuesday July 14, 2020</u></strong><br>10:00 am - 10:30 am <strong>What will happen at the convention today?</strong><br>10:30 am - 12:00 pm <strong>Panel</strong><br>12:15 pm - 1:30 pm <strong>Luncheon</strong><br>2:00 pm - 3:30 pm<strong> Panel</strong><br>3:00 pm - 4:30 pm <strong> Equal Voices in Democracy Reception</strong><br>3:30 pm - 5:00 pm <strong> Panel</strong><br>5:30 pm <strong>Hospitality Center</strong></div>
-                <div class="tab-pane fade" id="v-pills-day-three" role="tabpanel" aria-labelledby="v-pills-messages-tab"><strong><u>Wednesday July 15, 2020</u></strong><br>10:00 am - 10:30 am <strong>What will happen at the convention today?</strong><br>10:30 am - 12:00 pm <strong> Panel</strong><br>12:15 pm - 1:45 pm <strong>Geraldine Ferrarro Women in Politics Luncheon</strong><br>12:15 pm - 1:30 pm <strong>Luncheon</strong><br>2:00 pm - 3:30 pm <strong>Panel</strong><br>3:30 pm - 5:00 pm <strong> Panel</strong><br>5:30 pm <strong> Hospitality Center</strong></div>
-                <div class="tab-pane fade" id="v-pills-day-four" role="tabpanel" aria-labelledby="v-pills-settings-tab"><strong><u>Thursday July 16, 2020</u></strong><br>10:00 am - 10:30 am <strong>What will happen at the convention today?</strong><br>11:00 am - 12:30 pm <strong>Panel</strong><br>1:00 pm - 3:00 pm <strong>Closing Luncheon</strong><br>5:30 pm <strong>Hospitality Center</strong></div>
+                
+                <!-- Day one panel -->
+                
+                <div class="tab-pane fade show active" id="v-pills-day-one" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                     <ul class="list">
+                        <li><strong><u>Monday July, 13 2020</u></strong><br> 6:00 pm - 8:00 pm <strong>Opening Reception</strong></li>
+                     </ul>
+                </div>
+                
+                <!-- Day two panel -->
+                
+                <div class="tab-pane fade" id="v-pills-day-two" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                   <ul class="list" >
+                        <li><strong><u>Tuesday July 14, 2020</u></strong></li>
+                        <li>10:00 am - 10:30 am <strong>What will happen at the convention today?</strong></li>
+                        <li>10:30 am - 12:00 pm <strong>Panel</strong></li>
+                        <li>12:15 pm - 1:30 pm <strong>Luncheon</strong></li>
+                        <li>2:00 pm - 3:30 pm<strong> Panel</strong></li>
+                        <li>3:00 pm - 4:30 pm <strong> Equal Voices in Democracy Reception</strong></li>
+                        <li>3:30 pm - 5:00 pm <strong> Panel</strong></li>
+                        <li>5:30 pm <strong>Hospitality Center</strong></li>
+                    </ul>
+                </div>
+                
+                <!-- Day three panel -->
+                
+                <div class="tab-pane fade" id="v-pills-day-three" role="tabpanel" aria-labelledby="v-pills-messages-tab"> 
+                    <ul class="list">
+                        <li><strong><u>Wednesday July 15, 2020</u></strong></li>
+                        <li>10:00 am - 10:30 am <strong>What will happen at the convention today?</strong></li>
+                        <li>10:30 am - 12:00 pm <strong> Panel</strong></li>
+                        <li>12:15 pm - 1:45 pm <strong>Geraldine Ferrarro Women in Politics Luncheon</strong></li>
+                        <li>12:15 pm - 1:30 pm <strong>Luncheon</strong></li>
+                        <li>2:00 pm - 3:30 pm <strong>Panel</strong></li>
+                        <li>3:30 pm - 5:00 pm <strong> Panel</strong></li>
+                        <li>5:30 pm <strong> Hospitality Center</strong></li>
+                    </ul>
+                </div>
+
+                <!-- Day four panel -->
+                
+                <div class="tab-pane fade" id="v-pills-day-four" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    <ul class="list">
+                        <li><strong><u>Thursday July 16, 2020</u></strong></li>
+                        <li>10:00 am - 10:30 am <strong>What will happen at the convention today?</strong></li>
+                        <li>11:00 am - 12:30 pm <strong>Panel</strong></li>
+                        <li>1:00 pm - 3:00 pm <strong>Closing Luncheon</strong></li>
+                        <li>5:30 pm <strong>Hospitality Center</strong></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>

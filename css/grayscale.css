@@ -8,6 +8,7 @@
     
 .pill-table-wrap {
     width: 800px !important;
+    padding: 15px;
         }    
 }
 
@@ -23,6 +24,12 @@
 .pill-table-wrap {
     width: 375px !important;
         }    
+}
+
+@media (max-width: 325px) {
+    h1 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 320px) {
@@ -179,6 +186,13 @@
   padding: inherit;
 }
 
+.child-header {
+    background: linear-gradient(90deg, rgba(129,0,214,1) 35%, rgba(86,0,143,1) 100%);
+    height:200px;
+    padding-top:110px;
+    margin-bottom:20px;"
+}
+
 
 .tabs-left {
   border-bottom: none;
@@ -256,6 +270,15 @@
   }
 }
 
+.agenda-nav {
+    margin: 15px auto;
+}
+
+.list {
+    list-style: none;
+    padding-right: 5px;
+}
+
 @media only screen and (max-device-width: 1366px) {
   .parallax {
     background-attachment: scroll;
@@ -266,8 +289,19 @@
     margin-bottom: 30px;
 }
 
+
+
 .agenda-box {
     height: 250px;
+}
+
+@media only screen and (max-device-width: 425px) {
+    .agenda-box {
+    height: 390px;
+    }
+    .contrib-nav .nav-link {
+    width: 250px;    
+    }    
 }
 
 .btn {
