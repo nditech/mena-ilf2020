@@ -270,10 +270,6 @@
   }
 }
 
-.agenda-nav {
-    margin: 15px auto;
-}
-
 .list {
     list-style: none;
     padding-right: 5px;
@@ -299,6 +295,12 @@
     .agenda-box {
     height: 390px;
     }
+    
+    .agenda-nav {
+    margin: 15px auto;
+}
+    
+    
     .contrib-nav .nav-link {
     width: 250px;    
     }    
