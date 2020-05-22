@@ -170,7 +170,9 @@
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top:20px;
 }
 
 .parallax1 {
@@ -271,8 +273,10 @@
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 3rem;
     text-align: inherit;
+    margin-top: 30px;
+    margin-bottom: 30px;  
   }
 }
 
@@ -286,6 +290,8 @@
     background-attachment: scroll;
   }
 }
+
+.venue-header
 
 .contrib-nav {
     margin-bottom: 30px;
@@ -348,11 +354,15 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
   padding: 2rem;
+}
+
+.venue-header {
+    margin-bottom:100px;
 }
 
 @media (min-width: 992px) {
@@ -363,7 +373,7 @@
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 4rem;
   font-size: 90%;
 }
 
