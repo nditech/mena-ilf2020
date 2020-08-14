@@ -301,6 +301,7 @@
 
 .agenda-box {
     height: 250px;
+    overflow: scroll;
 }
 
 @media only screen and (max-device-width: 425px) {
