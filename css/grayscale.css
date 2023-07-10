@@ -195,7 +195,7 @@
   }
   
   .child-header {
-      background: linear-gradient(90deg, #053967 35%, #053967 100%);
+      background: #053967;
       height:200px;
       padding-top:110px;
       margin-bottom:20px;"
@@ -442,10 +442,10 @@
     text-align: center;
     height: 3rem;
     width: 3rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: #053967;
     border-radius: 100%;
     line-height: 3rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: white;
   }
   
   .contact-section .social a:hover {
@@ -490,8 +490,11 @@
   
   
   footer {
+    background-color: #d3d3d3;
     padding: 5rem 0;
     margin-top: 5%;
+    
+}
   
   .ft {
     color: black;
