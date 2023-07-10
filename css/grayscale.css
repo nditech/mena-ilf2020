@@ -198,7 +198,7 @@
       background: #053967;
       height:200px;
       padding-top:110px;
-      margin-bottom:20px;"
+      margin-bottom:20px;
   }
   
   
@@ -329,7 +329,7 @@
   }
   
   .btn-primary {
-    background-color: #124d89;
+    background-color: #053967;
   }
   
   .btn-primary:hover {
@@ -342,7 +342,7 @@
   }
   
   .btn-primary:active {
-    background-color: #467370 !important;
+    background-color: #053967;
   }
   
   .about-section {
