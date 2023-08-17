@@ -388,6 +388,11 @@
     }
   }
   
+ /*.tab-links {
+   display:none;}
+  .tab-links a.active { 
+    display:inline;
+}*/
   #about-page {
       text-align: left !important;
   }
