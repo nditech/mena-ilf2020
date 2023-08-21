@@ -387,12 +387,19 @@
       width: 30%;
     }
   }
+
+.tab-pane {
+    padding: 15px 0 0 0;
+}
   
- /*.tab-links {
-   display:none;}
-  .tab-links a.active { 
+.tab-links {
+   display:none;
+}
+
+.tab-links a.active { 
     display:inline;
-}*/
+}
+
   #about-page {
       text-align: left !important;
   }
