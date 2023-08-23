@@ -520,7 +520,18 @@
       border-radius: 0 0 4px 4px;
   }
       
+.info-soon {
+    margin-top: 50px; 
+    margin-left: -400px;
+    font-size: 25px;
+}
   
+ @media only screen and (max-width: 500px) {
+    .info-soon {
+        margin-left: 0px;
+        font-size: 20px;
+    }
+} 
   
   
   
