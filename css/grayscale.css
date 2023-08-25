@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.nav-logo {
+    width: 55%;
+    border-radius: 5px;
+}
+
  @media (max-width: 1024px) {
     
   .pill-table-wrap {
@@ -528,10 +533,15 @@
   
  @media only screen and (max-width: 500px) {
     .info-soon {
+        margin-top: 20px;
         margin-left: 0px;
         font-size: 20px;
     }
 } 
+
+.email {
+    margin-top: 15px;
+}
   
   
   
