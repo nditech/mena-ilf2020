@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+.nav-logo {
+    width: 55%;
+    border-radius: 5px;
+}
+
  @media (max-width: 1024px) {
     
   .pill-table-wrap {
@@ -195,10 +200,10 @@
   }
   
   .child-header {
-      background: linear-gradient(90deg, #053967 35%, #053967 100%);
+      background: #053967;
       height:200px;
       padding-top:110px;
-      margin-bottom:20px;"
+      margin-bottom:20px;
   }
   
   
@@ -299,8 +304,13 @@
   
   
   
+  /*.agenda-box {
+      height: 475px;*/
   .agenda-box {
-      height: 475px;
+        height: 250px;
+        overflow: scroll;
+      overflow-x: hidden;
+    
   }  
   
   @media only screen and (max-device-width: 425px) {
@@ -329,7 +339,7 @@
   }
   
   .btn-primary {
-    background-color: #124d89;
+    background-color: #053967;
   }
   
   .btn-primary:hover {
@@ -342,7 +352,7 @@
   }
   
   .btn-primary:active {
-    background-color: #467370 !important;
+    background-color: #053967;
   }
   
   .about-section {
@@ -387,7 +397,19 @@
       width: 30%;
     }
   }
+
+.tab-pane {
+    padding: 15px 0 0 0;
+}
   
+.tab-links {
+   display:none;
+}
+
+.tab-links a.active { 
+    display:inline;
+}
+
   #about-page {
       text-align: left !important;
   }
@@ -442,10 +464,10 @@
     text-align: center;
     height: 3rem;
     width: 3rem;
-    background: rgba(255, 255, 255, 0.1);
+    background: #053967;
     border-radius: 100%;
     line-height: 3rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: white;
   }
   
   .contact-section .social a:hover {
@@ -490,8 +512,11 @@
   
   
   footer {
+    background-color: #d3d3d3;
     padding: 5rem 0;
     margin-top: 5%;
+    
+}
   
   .ft {
     color: black;
@@ -500,7 +525,27 @@
       border-radius: 0 0 4px 4px;
   }
       
+.info-soon {
+    margin-top: 50px; 
+    margin-left: -400px;
+    font-size: 25px;
+}
   
+ @media only screen and (max-width: 500px) {
+    .info-soon {
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 20px;
+    }
+} 
+
+.email {
+    margin-top: 15px;
+}
+
+.title-spacer {
+    padding: 15px;
+}
   
   
   
